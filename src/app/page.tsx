@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col space-y-3 container">
             <p>Vous pouvez consulter son portfolio créatif pour de plus amples informations sur son parcours.</p>
-            <Button href="https://portfolio.exosoft.studio" className="bg-color5 text-color2">Portfolio</Button>
+            <Button href="https://stellbrute.exosoft.studio" className="bg-color5 text-color2">Portfolio</Button>
           </div>
       </Section>
       <Section id='entropi' bgColor='bg-color5 text-color2' className='flex lg:flex-col lg:justify-center items-center 
@@ -69,14 +69,14 @@ export default function Home() {
           </div>
           <div className="flex flex-row space-x-3 justify-center items-start">
             <p className="flex-1">Le Blog Exosoft compilera des articles sur l'actualité de la société, ainsi que l'actualité des autres projets Exosoft. Il sera aussi prévu d'y trouver des tutoriels pour utiliser les produits numériques qu'offrira Exosoft dans le futur.</p>
-            <p className="flex-1">Les sujets porteront principalement sur la programmation informatique, la culture antillaise, et d'autres sujets variés qui tourneront autour des principes d'Exosoft : innovation et créativité.</p>
+            <p className="flex-1">Les sujets porteront principalement sur la programmation informatique, la culture antillaise, et d'autres sujets variés qui tourneront autour des principes d'Exosoft : innovation, sécurité et créativité.</p>
           </div>
           <div className="flex flex-row container">
             <Button href="https://portfolio.exosoft.studio" className="bg-color5 text-color2">Voir plus</Button>
           </div>
       </Section>
-      <Section id='contact' bgColor='bg-color5 text-color2' className='flex lg:flex-col lg:justify-center items-center 
-        lg:h-[600px] lg:space-x-10 space-y-10'>
+      <Section id='contact' bgColor='bg-color5 text-color2' className='min-h-[30vh] flex lg:flex-col lg:justify-center items-center 
+        lg:h-[200px] lg:space-x-10 space-y-10'>
           <div className="space-y-3">
             <h1 className='text-3xl lg:text-5xl w-21 font-semibold leading-normal text-center'>Contact</h1>
           </div>
