@@ -12,7 +12,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row space-x-3 justify-center items-start">
             <p className="flex-1">Steeven Tell-Brute est le président de la société Exosoft. Il a fait ses études d&apos;informatique au Canada, avant de rentrer faire une pause avant le Covid. L&apos;urgence sanitaire ne lui ayant pas permis un retour aux études, il est directement entré dans le marché de l&apos;emploi guadeloupéen. L&apos;offre et la demande étant différente de Montréal, il a revu ses ambitions d&apos;ingénieur.</p>
-            <p className="flex-1">L&apos;envie d&apos;entreprendre dans des métiers d&apos;avenir, comme l&apos;informatique quantique et la blockchain, étant forte, il s&apos;est décidé à concevoir des logiciels sur mesure pour ses clients, mais aussi pour sa société. Le nom "Exosoft" vient du principe qu&apos;il souhaite toujours créer des produits sortis tout droit de l&apos;espace. C&apos;est aussi un passionné de jeux vidéos.</p>
+            <p className="flex-1">L&apos;envie d&apos;entreprendre dans des métiers d&apos;avenir, comme l&apos;informatique quantique et la blockchain, étant forte, il s&apos;est décidé à concevoir des logiciels sur mesure pour ses clients, mais aussi pour sa société. Le nom &quot;Exosoft&quot; vient du principe qu&apos;il souhaite toujours créer des produits sortis tout droit de l&apos;espace. C&apos;est aussi un passionné de jeux vidéos.</p>
           </div>
           <div className="flex flex-col space-y-3 container">
             <p>Vous pouvez consulter son portfolio créatif pour de plus amples informations sur son parcours.</p>
