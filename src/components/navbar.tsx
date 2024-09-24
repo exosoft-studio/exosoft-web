@@ -4,7 +4,7 @@ import React from 'react'
 import { useRouter, usePathname } from 'next/navigation'
 
 const _styles = `
-  min-h-[10vh] lg:min-h-[10vh]
+  min-h-[0px] lg:min-h-[10vh]
   flex mx-auto sticky top-0 bg-white
   justify-around lg:justify-center items-center space-x-20 relative
 `
@@ -57,7 +57,6 @@ export default function Navbar() {
   return (
     <div id="steeven" className={_styles}>
       <div className="lg:hidden">
-        {/* <FontAwesomeIcon icon={faBars} onClick={() => toggleMenu()}></FontAwesomeIcon> */}
         {
           toggle && 
           <div className="flex flex-col items-center bg-color2 absolute w-full left-0 top-[90px] space-y-1">
