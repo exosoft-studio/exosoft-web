@@ -1,9 +1,13 @@
 import Button from "@/components/partials/button";
 import Section from "@/components/partials/section";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <main className="text-2xl lg:text-3xl leading-relaxed ">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Section bgColor='bg-color2 text-color5' className='flex flex-col lg:justify-center items-center 
         lg:h-[700px] space-y-10'>
           <div className="space-y-3">
