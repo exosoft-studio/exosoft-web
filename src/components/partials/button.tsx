@@ -7,6 +7,7 @@ interface ButtonProps {
   
   export default function Button({ className, children, href }: ButtonProps) {
     return (
+    <div>
       <a className="inline-block" href={href}>
         <div className={`${className ? className : ''} 
           inline-block p-4 cursor-pointer rounded-md font-medium`}>
@@ -14,5 +15,6 @@ interface ButtonProps {
   
         </div>
       </a>
+    </div>
     )
   }

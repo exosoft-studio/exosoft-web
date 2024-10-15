@@ -85,7 +85,7 @@ export default function Home() {
             <h1 className='text-3xl lg:text-5xl w-21 font-semibold leading-normal text-center'>Contact</h1>
           </div>
           <div className="flex flex-col space-y-1 justify-center items-center">
-            <p className="flex-1"><b>Téléphone : </b>0690 45 65 99</p>
+            <p className="flex-1"><b>Téléphone : </b>0690 56 65 36</p>
             <p className="flex-1"><b>Email : </b>contact@exosoft.studio</p>
           </div>
       </Section>
